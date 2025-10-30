@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>Typing Speed Test — <span id="durationLabel">60</span>s</h1>
+      <div class="controls">
+        <div class="meta">
+          <div>Time: <span id="timeDisplay">60</span>s</div>
+          <div>WPM: <span id="wpmDisplay">0</span></div>
+          <div>Acc: <span id="accDisplay">100%</span></div>
+        </div>
+        <button id="startBtn">Start</button>
+        <button id="resetBtn" class="secondary">Reset</button>
+      </div>
+    </header>
+
+    <div id="sample" class="text-area"></div>
+
+    <div class="input-row">
+      <input id="inputBox" type="text" placeholder="Press Start to begin..." disabled autocomplete="off">
+      <select id="duration">
+        <option value="15">15s</option>
+        <option value="30">30s</option>
+        <option value="60" selected>60s</option>
+        <option value="120">120s</option>
+      </select>
+    </div>
+
+    <div class="results">
+      <div class="stat">Typed: <b id="charsTyped">0</b></div>
+      <div class="stat">Errors: <b id="errors">0</b></div>
+      <div class="stat">Correct: <b id="correctChars">0</b></div>
+    </div>
+
+    <footer>
+      created by : waaaaaaa3e!
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
