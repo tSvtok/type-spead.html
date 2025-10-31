@@ -164,7 +164,7 @@ select:focus { border-color: var(--accent); outline: none; }
   border-radius: 12px;
   text-align: center;
   padding: 10px;
-  border: 2px solid #ffe0eb;
+  border: 2px solid #f099b7;
 }
 .stat b { display: block; font-size: 20px; color: #ff5d94; }
 
